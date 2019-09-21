@@ -11367,10 +11367,6 @@ video {
   z-index: auto;
 }
 
-/* html {
-    margin:0;
-} */
-
 @media (min-width: 640px){
   .sm\:sr-only{
     position: absolute;
