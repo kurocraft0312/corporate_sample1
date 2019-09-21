@@ -1,0 +1,22 @@
+{
+  "name": "corporate_sample1",
+  "version": "1.0.0",
+  "description": "コーポレートサイトのサンプルサイトです。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurocraft0312/corporate_sample1.git"
+  },
+  "author": "kurocraft0312",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurocraft0312/corporate_sample1/issues"
+  },
+  "homepage": "https://github.com/kurocraft0312/corporate_sample1#readme",
+  "dependencies": {
+    "tailwindcss": "^1.1.2"
+  }
+}
