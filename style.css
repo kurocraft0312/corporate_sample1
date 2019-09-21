@@ -45,6 +45,24 @@ main
     text-align: center;
 }
 
+.company {
+    padding: 48px;
+}
+
+.company_name {
+    font-size: 56px;
+    text-align: center;    
+}
+
+.contactform {
+    padding: 48px;
+}
+
+.c_form {
+    font-size: 56px;
+    text-align: center; 
+}
+
 /*******************************************************
 footer
 *******************************************************/
