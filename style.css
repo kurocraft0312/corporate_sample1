@@ -30,6 +30,10 @@ main
     z-index: 1;
 }
 
+.business {
+    padding: 48px;
+}
+
 .business-descri {
     font-size: 56px;
     text-align: center;
@@ -37,6 +41,7 @@ main
 
 .business-explan {
     font-size: 24px;
+    margin: 24px;
     text-align: center;
 }
 
