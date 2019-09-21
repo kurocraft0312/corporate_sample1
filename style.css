@@ -1,11 +1,24 @@
 @charset "UTF-8";
 
+/*******************************************************
+header
+*******************************************************/
+.tracking-tight {
+    font-size: 15px;
+}
+
+/*******************************************************
+footer
+*******************************************************/
 .ftr {
     position: fixed;
     bottom: 0;
+    background-color: #38b2ac;
+    color: #fff;
     width: 100%;
 }
 
 .copyright {
     text-align: center;
+    padding: 10px;
 }
