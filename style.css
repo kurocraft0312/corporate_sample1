@@ -30,6 +30,16 @@ main
     z-index: 1;
 }
 
+.business-descri {
+    font-size: 56px;
+    text-align: center;
+}
+
+.business-explan {
+    font-size: 24px;
+    text-align: center;
+}
+
 /*******************************************************
 footer
 *******************************************************/
