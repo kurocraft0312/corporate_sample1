@@ -45,6 +45,20 @@ main
     text-align: center;
 }
 
+.business_img {
+    padding: 48px;
+    margin: 0 auto;
+}
+
+.business_title {
+    font-size: 32px;
+    padding: 16px;
+}
+
+.business_text {
+    font-size: 16px;
+}
+
 .company {
     padding: 48px;
 }
