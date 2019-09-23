@@ -35,7 +35,7 @@ main
     padding: 48px;
 }
 
-.business_descri {
+#business_descri {
     font-size: 56px;
     text-align: center;
 }
@@ -64,7 +64,7 @@ main
     padding: 48px;
 }
 
-.company_name {
+#company_name {
     font-size: 56px;
     text-align: center;    
 }
@@ -96,7 +96,7 @@ main
     text-align: center;
 }
 
-.c_form {
+#c_form {
     font-size: 56px;
     text-align: center; 
 }
