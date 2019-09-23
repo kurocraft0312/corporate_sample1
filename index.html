@@ -131,28 +131,31 @@
                 <form action="/" method="POST" class="max-w-3xl m-4 p-10 bg-white rounded shadow-xl form">
                     <p class="text-gray-800 font-medium contact_explan">記事執筆・WEBサイト制作に関するご相談はこちらまで</p>
                     <div class="mt-2">
-                        <label for="form_name" class="block text-sm text-gray-600">お名前</label>
+                        <label for="form_name" class="block text-sm text-gray-600 form_text">お名前</label>
                         <input type="text" name="form_name" id="form_name" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" placeholder="お名前を入力してください" aria-label="お名前" required>
                     </div>
                     <div class="mt-2">
-                        <label for="form_email" class="block text-sm text-gray-600">メールアドレス</label>
+                        <label for="form_email" class="block text-sm text-gray-600 form_text">メールアドレス</label>
                         <input type="email" name="form_email" id="form_email" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" placeholder="ご連絡先のメールアドレスを入力してください" aria-label="メールアドレス" required>
                     </div>
                     <div class="mt-2">
-                        <label for="form_tel" class="block text-sm text-gray-600">お電話番号</label>
+                        <label for="form_tel" class="block text-sm text-gray-600 form_text">お電話番号</label>
                         <input type="tel" name="form_tel" id="form_tel" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" placeholder="ご連絡先の電話番号を入力してください" aria-label="お電話番号">
                     </div>
                     <div class="mt-2">
-                        <label for="form_company" class="block text-sm text-gray-600">会社名</label>
+                        <label for="form_company" class="block text-sm text-gray-600 form_text">会社名</label>
                         <input type="text" name="form_company" id="form_company" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" placeholder="所属先の会社名を入力してください" aria-label="会社名">
                     </div>
                     <div class="mt-2">
-                        <label for="form_url" class="block text-sm text-gray-600">貴社WEBサイトURL</label>
+                        <label for="form_url" class="block text-sm text-gray-600 form_text">貴社WEBサイトURL</label>
                         <input type="url" name="form_url" id="form_url" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" placeholder="貴社様のWEBサイトURLを入力してください" aria-label="貴社WEBサイトURL">
                     </div>
                     <div class="mt-2">
-                        <label for="form_textarea" class="block text-sm text-gray-600">お問い合わせ内容</label>
+                        <label for="form_textarea" class="block text-sm text-gray-600 form_text">お問い合わせ内容</label>
                         <textarea name="form_textarea" id="form_textarea" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" cols="1000" rows="10" placeholder="お問い合わせ内容を入力してください" aria-label="お問い合わせ内容"></textarea>
+                    </div>
+                    <div class="mt-2">
+                        <input type="submit" name="form_submit">
                     </div>
                 </form>
         </div>
