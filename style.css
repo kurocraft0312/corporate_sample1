@@ -12,6 +12,7 @@ main
 *******************************************************/
 .wrap_video {
     position: relative;
+    padding-bottom: 48px;
 }
 
 .wrap_video video {
@@ -90,12 +91,23 @@ main
 }
 
 .contactform {
-    padding: 48px;
+    padding: 0 48px;
+    padding-bottom: 48px;
+    text-align: center;
 }
 
 .c_form {
     font-size: 56px;
     text-align: center; 
+}
+
+.contact_explan {
+    font-size: 16px;
+    margin: 24px;
+}
+
+.form {
+    margin: 0 auto;
 }
 
 /*******************************************************
