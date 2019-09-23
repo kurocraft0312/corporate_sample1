@@ -115,6 +115,18 @@ main
     padding: 8px;
 }
 
+.submitbutton {
+    background-color: #38b2ac;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 40px;
+}
+
+.submitbutton:hover {
+    opacity: 0.8;
+    transition: all 0.8s;
+}
+
 /*******************************************************
 footer
 *******************************************************/
