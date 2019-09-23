@@ -132,23 +132,23 @@
                     <p class="text-gray-800 font-medium contact_explan">記事執筆・WEBサイト制作に関するご相談はこちらまで</p>
                     <div class="mt-2">
                         <label for="form_name" class="block text-sm text-gray-600 form_text">お名前</label>
-                        <input type="text" name="form_name" id="form_name" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" placeholder="お名前を入力してください" aria-label="お名前" required>
+                        <input type="text" name="form_name" id="form_name" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" pattern="^[ぁ-んァ-ン一-龥]{1,20}" placeholder="お名前を入力してください" aria-label="お名前" required>
                     </div>
                     <div class="mt-2">
                         <label for="form_email" class="block text-sm text-gray-600 form_text">メールアドレス</label>
-                        <input type="email" name="form_email" id="form_email" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" placeholder="ご連絡先のメールアドレスを入力してください" aria-label="メールアドレス" required>
+                        <input type="email" name="form_email" id="form_email" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" pattern="^\S+@\S+\.\S+$" placeholder="ご連絡先のメールアドレスを入力してください" aria-label="メールアドレス" required>
                     </div>
                     <div class="mt-2">
                         <label for="form_tel" class="block text-sm text-gray-600 form_text">お電話番号</label>
-                        <input type="tel" name="form_tel" id="form_tel" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" placeholder="ご連絡先の電話番号を入力してください" aria-label="お電話番号" required>
+                        <input type="tel" name="form_tel" id="form_tel" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" pattern="^\d{10}$|^\d{11}$" placeholder="ご連絡先の電話番号を入力してください" aria-label="お電話番号" required>
                     </div>
                     <div class="mt-2">
                         <label for="form_company" class="block text-sm text-gray-600 form_text">会社名</label>
-                        <input type="text" name="form_company" id="form_company" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" placeholder="所属先の会社名を入力してください" aria-label="会社名" required>
+                        <input type="text" name="form_company" id="form_company" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" pattern="[ぁ-んァ-ン一-龥]{1,137}" placeholder="所属先の会社名を入力してください" aria-label="会社名" required>
                     </div>
                     <div class="mt-2">
                         <label for="form_url" class="block text-sm text-gray-600 form_text">貴社WEBサイトURL</label>
-                        <input type="url" name="form_url" id="form_url" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" placeholder="貴社様のWEBサイトURLを入力してください" aria-label="貴社WEBサイトURL">
+                        <input type="url" name="form_url" id="form_url" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" pattern="^http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w-.\/?%&=]*)?" placeholder="貴社様のWEBサイトURLを入力してください" aria-label="貴社WEBサイトURL">
                     </div>
                     <div class="mt-2">
                         <label for="form_textarea" class="block text-sm text-gray-600 form_text">お問い合わせ内容</label>
