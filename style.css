@@ -7,6 +7,10 @@ header
     font-size: 15px;
 }
 
+.open {
+    display: none;
+}
+
 .wrap_video {
     position: relative;
     padding-bottom: 48px;

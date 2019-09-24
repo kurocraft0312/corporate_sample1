@@ -1,5 +1,19 @@
 'use strict';
 
+/*ハンバーガーメニュー*/
+// $(function(){
+//     $("#hamburger_menu").toggle(function() {
+//        if($(this).is) 
+//     });
+// });
+$(function(){
+    $('#hamburger_menu').on('click',
+function(){
+    $('.menu_toggle').toggleClass('open');
+    });
+});
+
+/*スムーススクロール*/
 $(function(){
     // #で始まるアンカーをクリックしたとき
     $('a[href^="#"]').click(function() {
