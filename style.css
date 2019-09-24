@@ -7,9 +7,6 @@ header
     font-size: 15px;
 }
 
-/*******************************************************
-main
-*******************************************************/
 .wrap_video {
     position: relative;
     padding-bottom: 48px;
@@ -30,10 +27,9 @@ main
     text-align: center;
     z-index: 1;
 }
-
-.business {
-    padding: 48px;
-}
+/*******************************************************
+main
+*******************************************************/
 
 #business_descri {
     font-size: 48px;
@@ -52,7 +48,8 @@ main
 }
 
 .business_title {
-    font-size: 32px;
+    font-size: 112%;
+    font-weight: 700;
     padding: 16px;
 }
 
@@ -158,5 +155,12 @@ responsive
     .table_content {
         font-size: 8px;
         padding: 5px 10px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .wrap_video .top_copy {
+        font-size: 32px;
+        top: 27%;
+        left: 16%;
     }
 }

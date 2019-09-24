@@ -17,152 +17,154 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
-            <div class="flex items-center flex-shrink-0 text-white mr-6">
-                <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
-                <span class="font-semibold tracking-tight">コーポレート_サンプルA</span>
+    <div id="w-container">
+        <header>
+            <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+                <div class="flex items-center flex-shrink-0 text-white mr-6">
+                    <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+                    <span class="font-semibold tracking-tight">コーポレート_サンプルA</span>
+                </div>
+                <div class="block lg:hidden">
+                    <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                    </button>
+                </div>
+                <div class="w-full block lg:flex lg:items-center lg:w-auto">
+                    <div class="text-sm lg:flex-grow">
+                    <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        トップ
+                    </a>
+                    <a href="#business_descri" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        事業内容
+                    </a>
+                    <a href="#company_name" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        会社概要           
+                    </a>
+                    <a href="#c_form" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        お問い合わせ           
+                    </a>
+                    </div>
+                </div>
+            </nav>
+            <div class="wrap_video">
+                <div>
+                    <p class="top_copy">さらなる高みへ</p>
+                </div>
+                <video loop autoplay muted playsinline>
+                    <source src="assets/mv/business.mp4"></source>
+                    ※お使いの環境では動画再生に対応していません。
+                </video>
             </div>
-            <div class="block lg:hidden">
-                <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-                </button>
-            </div>
-            <div class="w-full block lg:flex lg:items-center lg:w-auto">
-                <div class="text-sm lg:flex-grow">
-                <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                    トップ
-                </a>
-                <a href="#business_descri" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                    事業内容
-                </a>
-                <a href="#company_name" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                    会社概要           
-                </a>
-                <a href="#c_form" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                    お問い合わせ           
-                </a>
+        </header>
+        <main id="m-container">
+            <div class="business">
+                <div>
+                    <p id="business_descri">事業内容</p>
+                </div>
+                <div>
+                    <p class="business_explan">事業内容の説明を書くところです。事業内容の説明を書くところです。事業内容の説明を書くところです。事業内容の説明を書くところです。事業内容の説明を書くところです。</p>
+                </div>
+                <div class="flex business_descri_cus justify-center">
+                    <div class="text-center px-4 py-2 m-2">
+                        <img src="assets/img/writing.png" class="business_img" alt="文章執筆・校正">
+                        <p class="business_title">文章執筆・校正</p>
+                        <p class="business_text">1000記事以上ライターとして記事を手掛けてきた経験を活かし、読みやすい文章を構成・執筆いたします。</p>
+                    </div>
+                    <div class="text-center px-4 py-2 m-2">
+                        <img src="assets/img/growth.png" class="business_img" alt="SEO対策・競合分析">
+                        <p class="business_title">SEO対策・競合分析</p>
+                        <p class="business_text">競合サイトを分析して、ニーズを理解しGoogleに好まれるコンテンツを生み出します。</p>
+                    </div>
+                    <div class="text-center px-4 py-2 m-2">
+                        <img src="assets/img/gear.png" class="business_img" alt="WordPress運用・保守">
+                        <p class="business_title">WordPress運用・保守</p>
+                        <p class="business_text">WordPressを用いて集客力のあるページを構築し、誰でも更新できる形で運用・管理いたします。</p>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </header>
-    <main id="container">
-        <div class="wrap_video">
-            <div>
-                <p class="top_copy">さらなる高みへ</p>
-            </div>
-            <video loop autoplay muted playsinline>
-                <source src="assets/mv/business.mp4"></source>
-                ※お使いの環境では動画再生に対応していません。
-            </video>
-        </div>
-        <div class="business">
-            <div>
-                <p id="business_descri">事業内容</p>
-            </div>
-            <div>
-                <p class="business_explan">事業内容の説明を書くところです。事業内容の説明を書くところです。事業内容の説明を書くところです。事業内容の説明を書くところです。事業内容の説明を書くところです。</p>
-            </div>
-            <div class="flex business_descri_cus justify-center">
-                <div class="text-center px-4 py-2 m-2">
-                    <img src="assets/img/writing.png" class="business_img" alt="文章執筆・校正">
-                    <p class="business_title">文章執筆・校正</p>
-                    <p class="business_text">1000記事以上ライターとして記事を手掛けてきた経験を活かし、読みやすい文章を構成・執筆いたします。</p>
+            <div class="company">
+                <div>
+                    <p id="company_name">会社概要</p>
                 </div>
-                <div class="text-center px-4 py-2 m-2">
-                    <img src="assets/img/growth.png" class="business_img" alt="SEO対策・競合分析">
-                    <p class="business_title">SEO対策・競合分析</p>
-                    <p class="business_text">競合サイトを分析して、ニーズを理解しGoogleに好まれるコンテンツを生み出します。</p>
+                <div>
+                    <table class="company_info">
+                        <tbody>
+                            <tr>
+                                <td class="table_menu">社名</td>
+                                <td class="table_content">株式会社ラットポスト</td>
+                            </tr>
+                            <tr>
+                                <td class="table_menu">創業</td>
+                                <td class="table_content">20XX年X月X日</td>
+                            </tr>
+                            <tr>
+                                <td class="table_menu">事業内容</td>
+                                <td class="table_content">ホームページ制作業</td>
+                            </tr>
+                            <tr>
+                                <td class="table_menu">本社所在地</td>
+                                <td class="table_content">埼玉県川口市末広1-17-8 メゾン杉山V302</td>
+                            </tr>
+                            <tr>
+                                <td class="table_menu">電話番号(TEL)</td>
+                                <td class="table_content">000-0000-0000</td>
+                            </tr>
+                            <tr>
+                                <td class="table_menu">代表取締役社長</td>
+                                <td class="table_content">黒川　シュン</td>
+                            </tr>
+                            <tr>
+                                <td class="table_menu">資本金</td>
+                                <td class="table_content">100万円</td>
+                            </tr>
+                            <tr>
+                                <td class="table_menu">社員数</td>
+                                <td class="table_content">1人</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="text-center px-4 py-2 m-2">
-                    <img src="assets/img/gear.png" class="business_img" alt="WordPress運用・保守">
-                    <p class="business_title">WordPress運用・保守</p>
-                    <p class="business_text">WordPressを用いて集客力のあるページを構築し、誰でも更新できる形で運用・管理いたします。</p>
+            </div>
+            <div class="contactform">
+                <div>
+                    <p id="c_form">お問い合わせ</p>
                 </div>
+                    <form action="/" method="POST" class="max-w-3xl m-4 p-10 bg-white rounded shadow-xl form">
+                        <p class="text-gray-800 font-medium contact_explan">記事執筆・WEBサイト制作に関するご相談はこちらまで</p>
+                        <div class="mt-2">
+                            <label for="form_name" class="block text-sm text-gray-600 form_text">お名前</label>
+                            <input type="text" name="form_name" id="form_name" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" pattern="^[ぁ-んァ-ン一-龥]{1,20}" placeholder="お名前を入力してください" aria-label="お名前" required>
+                        </div>
+                        <div class="mt-2">
+                            <label for="form_email" class="block text-sm text-gray-600 form_text">メールアドレス</label>
+                            <input type="email" name="form_email" id="form_email" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" pattern="^\S+@\S+\.\S+$" placeholder="ご連絡先のメールアドレスを入力してください" aria-label="メールアドレス" required>
+                        </div>
+                        <div class="mt-2">
+                            <label for="form_tel" class="block text-sm text-gray-600 form_text">お電話番号</label>
+                            <input type="tel" name="form_tel" id="form_tel" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" pattern="^\d{10}$|^\d{11}$" placeholder="ご連絡先の電話番号を入力してください" aria-label="お電話番号" required>
+                        </div>
+                        <div class="mt-2">
+                            <label for="form_company" class="block text-sm text-gray-600 form_text">会社名</label>
+                            <input type="text" name="form_company" id="form_company" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" pattern="[ぁ-んァ-ン一-龥]{1,137}" placeholder="所属先の会社名を入力してください" aria-label="会社名" required>
+                        </div>
+                        <div class="mt-2">
+                            <label for="form_url" class="block text-sm text-gray-600 form_text">貴社WEBサイトURL</label>
+                            <input type="url" name="form_url" id="form_url" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" pattern="^http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w-.\/?%&=]*)?" placeholder="貴社様のWEBサイトURLを入力してください" aria-label="貴社WEBサイトURL">
+                        </div>
+                        <div class="mt-2">
+                            <label for="form_textarea" class="block text-sm text-gray-600 form_text">お問い合わせ内容</label>
+                            <textarea name="form_textarea" id="form_textarea" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" cols="1000" rows="10" placeholder="お問い合わせ内容を入力してください" aria-label="お問い合わせ内容" required></textarea>
+                        </div>
+                        <div class="mt-2">
+                            <input type="submit" name="form_submit" class="submitbutton">
+                        </div>
+                    </form>
             </div>
-        </div>
-        <div class="company">
-            <div>
-                <p id="company_name">会社概要</p>
-            </div>
-            <div>
-                <table class="company_info">
-                    <tbody>
-                        <tr>
-                            <td class="table_menu">社名</td>
-                            <td class="table_content">株式会社ラットポスト</td>
-                        </tr>
-                        <tr>
-                            <td class="table_menu">創業</td>
-                            <td class="table_content">20XX年X月X日</td>
-                        </tr>
-                        <tr>
-                            <td class="table_menu">事業内容</td>
-                            <td class="table_content">ホームページ制作業</td>
-                        </tr>
-                        <tr>
-                            <td class="table_menu">本社所在地</td>
-                            <td class="table_content">埼玉県川口市末広1-17-8 メゾン杉山V302</td>
-                        </tr>
-                        <tr>
-                            <td class="table_menu">電話番号(TEL)</td>
-                            <td class="table_content">000-0000-0000</td>
-                        </tr>
-                        <tr>
-                            <td class="table_menu">代表取締役社長</td>
-                            <td class="table_content">黒川　シュン</td>
-                        </tr>
-                        <tr>
-                            <td class="table_menu">資本金</td>
-                            <td class="table_content">100万円</td>
-                        </tr>
-                        <tr>
-                            <td class="table_menu">社員数</td>
-                            <td class="table_content">1人</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="contactform">
-            <div>
-                <p id="c_form">お問い合わせ</p>
-            </div>
-                <form action="/" method="POST" class="max-w-3xl m-4 p-10 bg-white rounded shadow-xl form">
-                    <p class="text-gray-800 font-medium contact_explan">記事執筆・WEBサイト制作に関するご相談はこちらまで</p>
-                    <div class="mt-2">
-                        <label for="form_name" class="block text-sm text-gray-600 form_text">お名前</label>
-                        <input type="text" name="form_name" id="form_name" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" pattern="^[ぁ-んァ-ン一-龥]{1,20}" placeholder="お名前を入力してください" aria-label="お名前" required>
-                    </div>
-                    <div class="mt-2">
-                        <label for="form_email" class="block text-sm text-gray-600 form_text">メールアドレス</label>
-                        <input type="email" name="form_email" id="form_email" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" pattern="^\S+@\S+\.\S+$" placeholder="ご連絡先のメールアドレスを入力してください" aria-label="メールアドレス" required>
-                    </div>
-                    <div class="mt-2">
-                        <label for="form_tel" class="block text-sm text-gray-600 form_text">お電話番号</label>
-                        <input type="tel" name="form_tel" id="form_tel" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" pattern="^\d{10}$|^\d{11}$" placeholder="ご連絡先の電話番号を入力してください" aria-label="お電話番号" required>
-                    </div>
-                    <div class="mt-2">
-                        <label for="form_company" class="block text-sm text-gray-600 form_text">会社名</label>
-                        <input type="text" name="form_company" id="form_company" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" pattern="[ぁ-んァ-ン一-龥]{1,137}" placeholder="所属先の会社名を入力してください" aria-label="会社名" required>
-                    </div>
-                    <div class="mt-2">
-                        <label for="form_url" class="block text-sm text-gray-600 form_text">貴社WEBサイトURL</label>
-                        <input type="url" name="form_url" id="form_url" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" pattern="^http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w-.\/?%&=]*)?" placeholder="貴社様のWEBサイトURLを入力してください" aria-label="貴社WEBサイトURL">
-                    </div>
-                    <div class="mt-2">
-                        <label for="form_textarea" class="block text-sm text-gray-600 form_text">お問い合わせ内容</label>
-                        <textarea name="form_textarea" id="form_textarea" class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" cols="1000" rows="10" placeholder="お問い合わせ内容を入力してください" aria-label="お問い合わせ内容" required></textarea>
-                    </div>
-                    <div class="mt-2">
-                        <input type="submit" name="form_submit" class="submitbutton">
-                    </div>
-                </form>
-        </div>
-    </main>
-    <footer class="ftr">
-        <p class="copyright">©2019 corporate_sample1 by Kurokawa Shun</p>
-    </footer>
+        </main>
+        <footer class="ftr">
+            <p class="copyright">©2019 corporate_sample1 by Kurokawa Shun</p>
+        </footer>
+    </div>
     <script src="assets/js/jquery-3.4.1.min.js"></script>
     <script src="assets/js/index.js"></script>
 </body>
