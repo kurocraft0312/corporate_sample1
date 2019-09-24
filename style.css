@@ -36,7 +36,7 @@ main
 }
 
 #business_descri {
-    font-size: 56px;
+    font-size: 48px;
     text-align: center;
 }
 
@@ -60,12 +60,8 @@ main
     font-size: 16px;
 }
 
-.company {
-    padding: 48px;
-}
-
 #company_name {
-    font-size: 56px;
+    font-size: 48px;
     text-align: center;    
 }
 
@@ -78,6 +74,7 @@ main
 .table_menu {
     background-color: #cbf2f0;
     border: solid 1px #aaaaaa;
+    font-weight: 700;
     padding: 10px 20px;
     text-align: center;
     width: 18%;
@@ -91,13 +88,12 @@ main
 }
 
 .contactform {
-    padding: 0 48px;
     padding-bottom: 48px;
     text-align: center;
 }
 
 #c_form {
-    font-size: 56px;
+    font-size: 48px;
     text-align: center; 
 }
 
@@ -141,4 +137,26 @@ footer
     text-align: center;
     padding: 10px;
     font-size: 14px;
+}
+
+/*******************************************************
+responsive
+*******************************************************/
+@media screen and (max-width: 937px) {
+    .business_descri_cus {
+        display: block;
+    }
+}
+@media screen and (max-width: 801px) {
+    .company_info {
+        width: 80%;
+    }
+    .table_menu {
+        font-size: 8px;
+        padding: 5px 10px;
+    }
+    .table_content {
+        font-size: 8px;
+        padding: 5px 10px;
+    }
 }
