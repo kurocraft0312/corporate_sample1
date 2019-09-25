@@ -7,10 +7,6 @@ header
     font-size: 15px;
 }
 
-.open {
-    display: none;
-}
-
 .wrap_video {
     position: relative;
     padding-bottom: 48px;
@@ -105,6 +101,10 @@ main
 
 .form {
     margin: 0 auto;
+}
+
+.p-10 {
+    padding-top: 0;
 }
 
 .form_text {

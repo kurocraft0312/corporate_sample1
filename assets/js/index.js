@@ -1,15 +1,14 @@
 'use strict';
 
 /*ハンバーガーメニュー*/
-// $(function(){
-//     $("#hamburger_menu").toggle(function() {
-//        if($(this).is) 
-//     });
-// });
+// data-toggleを使って初期値を設定する
+
 $(function(){
+    //#hamburger_menuをクリックしたら、
     $('#hamburger_menu').on('click',
 function(){
-    $('.menu_toggle').toggleClass('open');
+    // .menu_toggleを開閉する
+    $('.menu_toggle').toggle();
     });
 });
 
