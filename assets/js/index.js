@@ -1,13 +1,10 @@
 'use strict';
 
 /*ハンバーガーメニュー*/
-// data-toggleを使って初期値を設定する
-
 $(function(){
     //#hamburger_menuをクリックしたら、
-    $('#hamburger_menu').on('click',
-function(){
-    // .menu_toggleを開閉する
+    $('#hamburger_menu').on('click',function(){
+    //.menu_toggleを開閉する
     $('.menu_toggle').toggle();
     });
 });
