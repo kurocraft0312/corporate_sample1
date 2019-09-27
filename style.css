@@ -30,7 +30,7 @@ header
 .wrap_video .top_copy {
     position: absolute;
     color: #fff;
-    font-size: 56px;
+    font-size: 7vh;
     top: 40%;
     left: 40%;
     text-align: center;
@@ -160,13 +160,22 @@ responsive
     .menu_toggle {
         display: none;
     }
+    .wrap_video .top_copy {
+        left: 33%;
+    }
 }
 @media screen and (max-width: 937px) {
+    .wrap_video .top_copy {
+        left: 30%;
+    }
     .business_descri_cus {
         display: block;
     }
 }
 @media screen and (max-width: 801px) {
+    .wrap_video .top_copy {
+        left: 27%;
+    }
     .company_info {
         width: 80%;
     }
@@ -179,10 +188,35 @@ responsive
         padding: 5px 10px;
     }
 }
+@media screen and (max-width: 634px) {
+    .wrap_video .top_copy {
+        left: 21%;
+    }
+}
+@media screen and (max-width: 588px) {
+    .wrap_video .top_copy {
+        left: 18%;
+    }
+}
+@media screen and (max-width: 522px) {
+    .wrap_video .top_copy {
+        left: 12%;
+    }
+}
+@media screen and (max-width: 477px) {
+    .wrap_video .top_copy {
+        font-size: 6vh;
+    }
+}
+@media screen and (max-width: 407px) {
+    .wrap_video .top_copy {
+        font-size: 5vh;
+    }
+}
 @media screen and (max-width: 320px) {
     .wrap_video .top_copy {
         font-size: 32px;
-        top: 27%;
+        top: 36%;
         left: 16%;
     }
 }
