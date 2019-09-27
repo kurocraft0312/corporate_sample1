@@ -143,6 +143,12 @@ footer
 /*******************************************************
 responsive
 *******************************************************/
+/*toggleの初期値*/
+@media screen and (max-width: 1023px) {
+    .menu_toggle {
+        display: none;
+    }
+}
 @media screen and (max-width: 937px) {
     .business_descri_cus {
         display: block;
