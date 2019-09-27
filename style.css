@@ -9,13 +9,22 @@ header
 
 .wrap_video {
     position: relative;
-    padding-bottom: 48px;
+}
+
+.wrap_video::after {
+    content: '';
+    display: block;
+    background-color: #000;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .wrap_video video {
     width: 100%;
     height: 100%;
-    filter: brightness(40%);
 }
 
 .wrap_video .top_copy {
@@ -30,6 +39,9 @@ header
 /*******************************************************
 main
 *******************************************************/
+#m-container {
+    padding-top: 48px;
+}
 
 #business_descri {
     font-size: 48px;
